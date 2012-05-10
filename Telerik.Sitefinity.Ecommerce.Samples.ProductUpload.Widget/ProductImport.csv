@@ -1,0 +1,2 @@
+Title,ProductTypeTitle,Description,Url,Price,Weight,SKU,ImageFilePath,IsActive,CustomProperty1,CustomProperty2
+My Product Title,CustomProductType,This is my product description,,999.99,2,IPN4,C:\demos\ProductUpload\Images\Image2.jpg|C:\demos\ProductUpload\Images\Image1.jpg,FALSE,CustomData1-Row2,CustomData2-Row2
