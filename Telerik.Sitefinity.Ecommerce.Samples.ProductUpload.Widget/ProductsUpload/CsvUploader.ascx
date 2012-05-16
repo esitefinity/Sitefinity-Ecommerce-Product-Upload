@@ -13,9 +13,9 @@
         <div class="sfWorkArea">
             <div id="messageControl" runat="server" class="sfMessage sfGridViewMessage">
             </div>
-            <div>
+            <div id="productImport">
                 <h2>
-                    Upload Csv File</h2>
+                    Upload Csv File For Product Import</h2>
                 <br />
                 <br />
                 <asp:FileUpload ID="FileUpload1" runat="server" />
@@ -29,6 +29,23 @@
                 <br />
                 <asp:Button ID="btnUpload" runat="server" ValidationGroup="UploadCSV" Text="Submit"
                     CssClass="RadUploadSubmit" OnClick="btnUpload_Click" />
+            </div>
+            <div id="Div1">
+                <h2>
+                    Upload Csv File For Product Variation Import</h2>
+                <br />
+                <br />
+                <asp:FileUpload ID="FileUpload2" runat="server" />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="FileUpload2"
+                    ErrorMessage="* Required" ForeColor="Red" SetFocusOnError="true" Display="Dynamic"
+                    ValidationGroup="UploadVariationCSV"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="FileUpload2"
+                    ErrorMessage="Only CSV file is allowed" ValidationGroup="UploadVariationCSV" ValidationExpression="(.*\.([Cc][Ss][Vv])$)">
+                </asp:RegularExpressionValidator>
+                <br />
+                <br />
+                <asp:Button ID="btnProductVariationUpload" runat="server" ValidationGroup="UploadVariationCSV" Text="Submit Product Variation file"
+                    CssClass="RadUploadSubmit" OnClick="btnVariationUpload_Click" />
             </div>
         </div>
     </div>
