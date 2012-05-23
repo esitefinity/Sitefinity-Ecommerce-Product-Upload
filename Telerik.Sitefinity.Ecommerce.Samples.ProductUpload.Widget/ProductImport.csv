@@ -1,2 +1,2 @@
-Title,ProductTypeTitle,Description,Url,Price,Weight,SKU,ImageFilePath,Departments,IsActive,CustomProperty1,CustomProperty2
-Product12,Import,Desc4,,1000,2,IPN4D,C:\Temp\Images\Image2.png|C:\Temp\Images\Image1.png,DEP1|DEP2,FALSE,CustomData1-Row2,CustomData2-Row2
+Title,ProductTypeTitle,Description,Url,Price,Weight,SKU,ImageFilePath,Departments,Tags,IsActive,CustomProperty1,CustomProperty2
+Product18,Import,Desc4,,1000,2,IPN4D,C:\Temp\Images\Image2.png|C:\Temp\Images\Image1.png,DEP1|DEP2,TAG1|TAG2,TRUE,CustomData1-Row2,CustomData2-Row2
