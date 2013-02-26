@@ -1,2 +1,2 @@
-﻿Title,ProductTypeTitle,Description,Url,Price,Weight,SKU,ImageFilePath,DocumentsAndFilesPath,Departments,Tags,IsActive,CustomProperty1,CustomProperty2
-Product31,Import,Desc4,,1000,2,IPN4D,C:\Temp\Images\Image2.jpg|C:\Temp\Images\Image1.jpg,C:\Temp\Docs\Doc1.pdf|C:\Temp\Docs\Doc2.docx,DEP1|DEP2,TAG1|TAG2,TRUE,CustomData1-Row2,CustomData2-Row2
+﻿Title,ProductTypeTitle,Description,Url,Price,Weight,SKU,ImageFilePath,DocumentsAndFilesPath,Departments,Tags,TrackInventory,InventoryAmount,OutOfStockOption,IsActive,CustomProperty1,CustomProperty2
+Product54Import6,Import,Desc4,,1000,2,VARIMPORT2,C:\Temp\Images\Image20.jpg|C:\Temp\Images\Image10.jpg,C:\Temp\Docs\Doc1.pdf|C:\Temp\Docs\Doc2.docx,DEP1|DEP2,TAG1|TAG2,1,22,1,TRUE,CustomData1-Row2,CustomData2-Row2
