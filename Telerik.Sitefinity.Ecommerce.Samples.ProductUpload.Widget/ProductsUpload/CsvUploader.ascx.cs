@@ -25,7 +25,7 @@ namespace SitefinityWebApp.ProductsUpload
         {
             string filePath = UploadFileAndGetFilePath(FileUpload2);
 
-            UploadManager uploadManager = new UploadManager(new UploadConfig { NumberOfColumns = UploadConstants.DefaultNumberOfColumnsForProductVariationImport });
+            UploadManager uploadManager = new UploadManager(new UploadConfig());
 
             ImportStatistic statistic =  uploadManager.ImportProductsVariationsFromCsvFile(filePath);
         }
@@ -43,7 +43,7 @@ namespace SitefinityWebApp.ProductsUpload
         {
             string filePath = UploadFileAndGetFilePath(FileUpload1);
 
-            UploadManager uploadManager = new UploadManager(new UploadConfig { NumberOfColumns = UploadConstants.DefaultNumberOfColumnsForProductImport });
+            UploadManager uploadManager = new UploadManager(new UploadConfig());
 
             uploadManager.ImportProductsFromCsvFile(filePath);
         }
